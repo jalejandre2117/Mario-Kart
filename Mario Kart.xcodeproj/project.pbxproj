@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE74D2B222425CB00891A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE74D2A222425CB00891A69 /* AppDelegate.swift */; };
+		7DE74D2D222425CB00891A69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE74D2C222425CB00891A69 /* ViewController.swift */; };
+		7DE74D30222425CB00891A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE74D2E222425CB00891A69 /* Main.storyboard */; };
+		7DE74D32222425CC00891A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE74D31222425CC00891A69 /* Assets.xcassets */; };
+		7DE74D35222425CC00891A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE74D33222425CC00891A69 /* LaunchScreen.storyboard */; };
+		7DE74D40222425CC00891A69 /* Mario_KartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE74D3F222425CC00891A69 /* Mario_KartTests.swift */; };
+		7DE74D4B222425CC00891A69 /* Mario_KartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE74D4A222425CC00891A69 /* Mario_KartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DE74D3C222425CC00891A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE74D1F222425CB00891A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE74D26222425CB00891A69;
+			remoteInfo = "Mario Kart";
+		};
+		7DE74D47222425CC00891A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE74D1F222425CB00891A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE74D26222425CB00891A69;
+			remoteInfo = "Mario Kart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DE74D27222425CB00891A69 /* Mario Kart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mario Kart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE74D2A222425CB00891A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DE74D2C222425CB00891A69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DE74D2F222425CB00891A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DE74D31222425CC00891A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE74D34222425CC00891A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DE74D36222425CC00891A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE74D3B222425CC00891A69 /* Mario KartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mario KartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE74D3F222425CC00891A69 /* Mario_KartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario_KartTests.swift; sourceTree = "<group>"; };
+		7DE74D41222425CC00891A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE74D46222425CC00891A69 /* Mario KartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mario KartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE74D4A222425CC00891A69 /* Mario_KartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario_KartUITests.swift; sourceTree = "<group>"; };
+		7DE74D4C222425CC00891A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE74D24222425CB00891A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE74D38222425CC00891A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE74D43222425CC00891A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DE74D1E222425CB00891A69 = {
+			isa = PBXGroup;
+			children = (
+				7DE74D29222425CB00891A69 /* Mario Kart */,
+				7DE74D3E222425CC00891A69 /* Mario KartTests */,
+				7DE74D49222425CC00891A69 /* Mario KartUITests */,
+				7DE74D28222425CB00891A69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE74D28222425CB00891A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE74D27222425CB00891A69 /* Mario Kart.app */,
+				7DE74D3B222425CC00891A69 /* Mario KartTests.xctest */,
+				7DE74D46222425CC00891A69 /* Mario KartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE74D29222425CB00891A69 /* Mario Kart */ = {
+			isa = PBXGroup;
+			children = (
+				7DE74D2A222425CB00891A69 /* AppDelegate.swift */,
+				7DE74D2C222425CB00891A69 /* ViewController.swift */,
+				7DE74D2E222425CB00891A69 /* Main.storyboard */,
+				7DE74D31222425CC00891A69 /* Assets.xcassets */,
+				7DE74D33222425CC00891A69 /* LaunchScreen.storyboard */,
+				7DE74D36222425CC00891A69 /* Info.plist */,
+			);
+			path = "Mario Kart";
+			sourceTree = "<group>";
+		};
+		7DE74D3E222425CC00891A69 /* Mario KartTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE74D3F222425CC00891A69 /* Mario_KartTests.swift */,
+				7DE74D41222425CC00891A69 /* Info.plist */,
+			);
+			path = "Mario KartTests";
+			sourceTree = "<group>";
+		};
+		7DE74D49222425CC00891A69 /* Mario KartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE74D4A222425CC00891A69 /* Mario_KartUITests.swift */,
+				7DE74D4C222425CC00891A69 /* Info.plist */,
+			);
+			path = "Mario KartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE74D26222425CB00891A69 /* Mario Kart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE74D4F222425CC00891A69 /* Build configuration list for PBXNativeTarget "Mario Kart" */;
+			buildPhases = (
+				7DE74D23222425CB00891A69 /* Sources */,
+				7DE74D24222425CB00891A69 /* Frameworks */,
+				7DE74D25222425CB00891A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mario Kart";
+			productName = "Mario Kart";
+			productReference = 7DE74D27222425CB00891A69 /* Mario Kart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DE74D3A222425CC00891A69 /* Mario KartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE74D52222425CC00891A69 /* Build configuration list for PBXNativeTarget "Mario KartTests" */;
+			buildPhases = (
+				7DE74D37222425CC00891A69 /* Sources */,
+				7DE74D38222425CC00891A69 /* Frameworks */,
+				7DE74D39222425CC00891A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE74D3D222425CC00891A69 /* PBXTargetDependency */,
+			);
+			name = "Mario KartTests";
+			productName = "Mario KartTests";
+			productReference = 7DE74D3B222425CC00891A69 /* Mario KartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DE74D45222425CC00891A69 /* Mario KartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE74D55222425CC00891A69 /* Build configuration list for PBXNativeTarget "Mario KartUITests" */;
+			buildPhases = (
+				7DE74D42222425CC00891A69 /* Sources */,
+				7DE74D43222425CC00891A69 /* Frameworks */,
+				7DE74D44222425CC00891A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE74D48222425CC00891A69 /* PBXTargetDependency */,
+			);
+			name = "Mario KartUITests";
+			productName = "Mario KartUITests";
+			productReference = 7DE74D46222425CC00891A69 /* Mario KartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE74D1F222425CB00891A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jorge Alejandre";
+				TargetAttributes = {
+					7DE74D26222425CB00891A69 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7DE74D3A222425CC00891A69 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7DE74D26222425CB00891A69;
+					};
+					7DE74D45222425CC00891A69 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7DE74D26222425CB00891A69;
+					};
+				};
+			};
+			buildConfigurationList = 7DE74D22222425CB00891A69 /* Build configuration list for PBXProject "Mario Kart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DE74D1E222425CB00891A69;
+			productRefGroup = 7DE74D28222425CB00891A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE74D26222425CB00891A69 /* Mario Kart */,
+				7DE74D3A222425CC00891A69 /* Mario KartTests */,
+				7DE74D45222425CC00891A69 /* Mario KartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE74D25222425CB00891A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE74D35222425CC00891A69 /* LaunchScreen.storyboard in Resources */,
+				7DE74D32222425CC00891A69 /* Assets.xcassets in Resources */,
+				7DE74D30222425CB00891A69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE74D39222425CC00891A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE74D44222425CC00891A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE74D23222425CB00891A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE74D2D222425CB00891A69 /* ViewController.swift in Sources */,
+				7DE74D2B222425CB00891A69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE74D37222425CC00891A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE74D40222425CC00891A69 /* Mario_KartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE74D42222425CC00891A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE74D4B222425CC00891A69 /* Mario_KartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE74D3D222425CC00891A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE74D26222425CB00891A69 /* Mario Kart */;
+			targetProxy = 7DE74D3C222425CC00891A69 /* PBXContainerItemProxy */;
+		};
+		7DE74D48222425CC00891A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE74D26222425CB00891A69 /* Mario Kart */;
+			targetProxy = 7DE74D47222425CC00891A69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DE74D2E222425CB00891A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE74D2F222425CB00891A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DE74D33222425CC00891A69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE74D34222425CC00891A69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DE74D4D222425CC00891A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DE74D4E222425CC00891A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE74D50222425CC00891A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mario Kart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mario-Kart.Mario-Kart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DE74D51222425CC00891A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mario Kart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mario-Kart.Mario-Kart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DE74D53222425CC00891A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mario KartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mario-Kart.Mario-KartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mario Kart.app/Mario Kart";
+			};
+			name = Debug;
+		};
+		7DE74D54222425CC00891A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mario KartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mario-Kart.Mario-KartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mario Kart.app/Mario Kart";
+			};
+			name = Release;
+		};
+		7DE74D56222425CC00891A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mario KartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mario-Kart.Mario-KartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mario Kart";
+			};
+			name = Debug;
+		};
+		7DE74D57222425CC00891A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mario KartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mario-Kart.Mario-KartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mario Kart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE74D22222425CB00891A69 /* Build configuration list for PBXProject "Mario Kart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE74D4D222425CC00891A69 /* Debug */,
+				7DE74D4E222425CC00891A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE74D4F222425CC00891A69 /* Build configuration list for PBXNativeTarget "Mario Kart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE74D50222425CC00891A69 /* Debug */,
+				7DE74D51222425CC00891A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE74D52222425CC00891A69 /* Build configuration list for PBXNativeTarget "Mario KartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE74D53222425CC00891A69 /* Debug */,
+				7DE74D54222425CC00891A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE74D55222425CC00891A69 /* Build configuration list for PBXNativeTarget "Mario KartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE74D56222425CC00891A69 /* Debug */,
+				7DE74D57222425CC00891A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE74D1F222425CB00891A69 /* Project object */;
+}
